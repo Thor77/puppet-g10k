@@ -1,4 +1,4 @@
-<% -| Hash[String, Data] $config, Hash[String, Hash] $sources |- %>
+<%- | Hash[String, Data] $config, Hash[String, Hash] $sources | -%>
 ---
 # This file is managed by Puppet
 <% $config.each |$key, $value| { %>
