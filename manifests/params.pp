@@ -2,6 +2,6 @@
 class g10k::params {
   $version = '0.6.1'
   $repo = 'xorpaul/g10k'
-  $install_path = '/usr/local/bin'
+  $install_path = '/usr/bin'
   $config_path = '/etc/g10k.yaml'
 }
