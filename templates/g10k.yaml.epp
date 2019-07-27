@@ -1,0 +1,14 @@
+<% -| Hash[String, Data] $config, Hash[String, Hash] $sources |- %>
+---
+# This file is managed by Puppet
+<% $config.each |$key, $value| { %>
+:<%= $key %>: <%= $value %>
+<% } %>
+
+:sources:
+  <% $config['sources'].each |$name, $options| { -%>
+  :<= $name %>:
+    <% $options.each |$key, $value| { -%>
+    <%= $key %>: <%= $value %>
+    <% } -%>
+  <% } -%>
