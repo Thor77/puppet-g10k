@@ -11,4 +11,4 @@
     <% $options.each |$key, $value| { -%>
     <%= $key %>: <%= $value %>
     <% } -%>
-  <% } -%>
+  <% } %>
