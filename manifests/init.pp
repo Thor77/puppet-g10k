@@ -9,7 +9,7 @@ class g10k (
   String $config_path = $g10k::params::config_path,
   Hash $cfg = {},
   Hash $sources = {},
-) inherits g10k::params { 
+) inherits g10k::params {
   contain g10k::install
   contain g10k::config
 }
