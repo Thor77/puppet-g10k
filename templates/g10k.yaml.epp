@@ -6,7 +6,7 @@
 <% } %>
 
 :sources:
-  <% $sources.each |$name, $options| { -%>
+  <% $sources.each |$name, $options| { %>
   :<%= $name %>:
     <% $options.each |$key, $value| { -%>
     <%= $key %>: <%= $value %>
