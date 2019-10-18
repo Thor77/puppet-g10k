@@ -1,6 +1,6 @@
 # g10k
 
-Manage and install g10k
+Manage and install [g10k](https://github.com/xorpaul/g10k)
 
 ## Usage
 
